@@ -1,0 +1,3 @@
+有一个源类(Source),拥有一个方法,待适配; 目标接口(TargetInterface),通过AdapterClass类,将Source类待功能扩展到了TargetInterface里
+
+个人理解,类的适配器模式就是接口能通过实现其接口方法(未全部实现)的类(类A)的对象来调用A的父类的方法

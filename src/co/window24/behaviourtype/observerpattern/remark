@@ -1,0 +1,3 @@
+MySubject就是猪对象,ObServerImplA和ObServerImplB是依赖于MySubject的对象,当MySubject变化时,ObServerImplA和ObServerImplB必然变化
+AbstractSubject类中定义着需要监控当对象列表, 可以对其进行修改
+增加或删除被监控对象,且当MySubject变化时,负责通知在列表内存在的对象
